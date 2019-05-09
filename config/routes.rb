@@ -9,6 +9,10 @@ Rails.application.routes.draw do
 
   get 'contact' => 'portfolio#contact'
 
+  get 'games' => 'portfolio#games'
+
+  get 'games/angry' => 'portfolio#angry'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+/* *{
+    outline: 1px solid black;
+} */
+
+body{
+    height: 85vh;
+}
+
+#header h1{
+    font-family: 'Orbitron';
+}
+
+#header{
+    padding: 2%;
+}
+
+i{
+    font-size: 32px;
+}
+
+#sidebar{
+    height: 9vh;
+}
+
+#sidebar i:first-child{
+    margin-top: 100%;
+}
+
+#home{
+    height: 85vh;
+    background-image: url('https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg?cs=srgb&dl=code-coder-coding-270404.jpg&fm=jpg');
+    background-size: cover;
+}

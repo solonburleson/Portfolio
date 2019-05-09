@@ -13,4 +13,10 @@ class PortfolioController < ApplicationController
 
   def contact
   end
+  
+  def games
+  end
+
+  def angry
+  end
 end
