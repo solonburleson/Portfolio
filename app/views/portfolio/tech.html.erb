@@ -1,55 +1,76 @@
-<div class="col-10 mx-auto">
-    <section id="lang">
-        <div class="align-top text-center mx-lg-5 py-5">
-            <h2 class="text-light">Languages</h2>
-            <div class="d-lg-inline-block d-md-inline-block d-none">
-                <img class="col-2 my-4" data-toggle="tooltip" data-placement="bottom" title="HTML5" src="/images/html1.png">
-                <img class="col-2 my-4" data-toggle="tooltip" data-placement="bottom" title="CSS3" src="/images/css1.png">
-                <img class="col-2 my-4" data-toggle="tooltip" data-placement="bottom" title="JavaScript" src="/images/javascript1.png">
-                <img class="col-2 my-4" data-toggle="tooltip" data-placement="bottom" title="TypeScript" src="/images/ts.png">
-                <img class="col-2 my-4" data-toggle="tooltip" data-placement="bottom" title="Python" src="/images/python.png">
-                <img class="col-2 my-4" data-toggle="tooltip" data-placement="bottom" title="Ruby" src="/images/ruby.png">
-                <img class="col-2 my-4" data-toggle="tooltip" data-placement="bottom" title="SQL" src="/images/sql.png">
-            </div>    
-        </div>
-    </section>
-    <section id="fworks">
-        <div class="align-top text-center mx-lg-5 py-5">
-            <h2 class="text-light">Frameworks</h2>
-            <div class="d-lg-inline-block d-md-inline-block d-none">
-                <img class="col-2 my-4" data-toggle="tooltip" data-placement="bottom" title="Express.js" src="/images/Expressjs.png">
-                <img class="col-2 my-4" data-toggle="tooltip" data-placement="bottom" title="Angular" src="/images/angular.png">
-                <img class="col-2 my-4" data-toggle="tooltip" data-placement="bottom" title="Node.js" src="/images/nodejs.png">
-                <img class="col-2 my-4" data-toggle="tooltip" data-placement="bottom" title="Socket.io" src="/images/socket.png">
-                <img class="col-2 my-4" data-toggle="tooltip" data-placement="bottom" title="Django" src="/images/django.png">
-                <img class="col-2 my-4" data-toggle="tooltip" data-placement="bottom" title="Flask" src="/images/flask.png">
-                <img class="col-2 my-4" data-toggle="tooltip" data-placement="bottom" title="Rails" src="/images/rails1.png">
-                <img class="col-2 my-4" data-toggle="tooltip" data-placement="bottom" title="Bootstrap" src="/images/bootstrap.png">
-                <img class="col-2 my-4" data-toggle="tooltip" data-placement="bottom" title="jQuery" src="/images/jquery.png">
+<div id="sidebar" class="align-top bg-dark col-1 h-100 d-inline-block text-center">
+    <ul class="nav nav-pills">
+      <li class="nav-item mx-auto">
+        <a id="index" href="/" class="nav-link" data-toggle="tooltip" data-placement="right" title="Home"><i class='fas fa-home text-light d-block mb-5'></i></a> 
+      </li>
+      <li class="nav-item mx-auto">
+        <a id="tech" href="/tech" class="nav-link active" data-toggle="tooltip" data-placement="right" title="Languages"><i class="fab fa-python text-light d-block my-5"></i></a>
+      </li>
+      <li class="nav-item mx-auto">
+        <a href="/projects" class="nav-link" data-toggle="tooltip" data-placement="right" title="Projects"><i class="fas fa-project-diagram text-light d-block my-5"></i></a>
+      </li>
+      <li class="nav-item mx-auto">
+        <a href="/resume" class="nav-link" data-toggle="tooltip" data-placement="right" title="Resume"><i class="fas fa-file-alt text-light d-block my-5"></i></a>
+      </li>
+      <li class="nav-item mx-auto">
+        <a href="/contact" class="nav-link" data-toggle="tooltip" data-placement="right" title="Contact"><i class="fas fa-at text-light d-block my-5"></i></a>
+      </li>
+    </ul>
+</div>
+<div class="col-10 d-inline-block mx-auto">
+    <div class="col-10 mx-auto">
+        <section id="lang">
+            <div class="align-top text-center mx-lg-5 py-5">
+                <h2 class="text-light">Languages</h2>
+                <div class="d-lg-inline-block d-md-inline-block d-none">
+                    <img class="col-2 my-4" data-toggle="tooltip" data-placement="bottom" title="HTML5" src="/images/html1.png">
+                    <img class="col-2 my-4" data-toggle="tooltip" data-placement="bottom" title="CSS3" src="/images/css1.png">
+                    <img class="col-2 my-4" data-toggle="tooltip" data-placement="bottom" title="JavaScript" src="/images/javascript1.png">
+                    <img class="col-2 my-4" data-toggle="tooltip" data-placement="bottom" title="TypeScript" src="/images/ts.png">
+                    <img class="col-2 my-4" data-toggle="tooltip" data-placement="bottom" title="Python" src="/images/python.png">
+                    <img class="col-2 my-4" data-toggle="tooltip" data-placement="bottom" title="Ruby" src="/images/ruby.png">
+                    <img class="col-2 my-4" data-toggle="tooltip" data-placement="bottom" title="SQL" src="/images/sql.png">
+                </div>    
             </div>
-        </div>
-    </section>
-    <section id="db">
-        <div class="align-top text-center mx-lg-5 py-5">
-            <h2 class="text-light">Databases</h2>
-            <div class="d-lg-inline-block d-md-inline-block d-none">
-                <img class="col-2 my-4" data-toggle="tooltip" data-placement="bottom" title="MongoDB" src="/images/mongodb1.png">
-                <img class="col-2 my-4" data-toggle="tooltip" data-placement="bottom" title="MySQL" src="/images/mysql.png">
-                <img class="col-2 my-4" data-toggle="tooltip" data-placement="bottom" title="SQLite" src="/images/sqlite.png">
-                <img class="col-2 my-4" data-toggle="tooltip" data-placement="bottom" title="PostgreSQL" src="/images/postgresql.png">
+        </section>
+        <section id="fworks">
+            <div class="align-top text-center mx-lg-5 py-5">
+                <h2 class="text-light">Frameworks</h2>
+                <div class="d-lg-inline-block d-md-inline-block d-none">
+                    <img class="col-2 my-4" data-toggle="tooltip" data-placement="bottom" title="Express.js" src="/images/Expressjs.png">
+                    <img class="col-2 my-4" data-toggle="tooltip" data-placement="bottom" title="Angular" src="/images/angular.png">
+                    <img class="col-2 my-4" data-toggle="tooltip" data-placement="bottom" title="Node.js" src="/images/nodejs.png">
+                    <img class="col-2 my-4" data-toggle="tooltip" data-placement="bottom" title="Socket.io" src="/images/socket.png">
+                    <img class="col-2 my-4" data-toggle="tooltip" data-placement="bottom" title="Django" src="/images/django.png">
+                    <img class="col-2 my-4" data-toggle="tooltip" data-placement="bottom" title="Flask" src="/images/flask.png">
+                    <img class="col-2 my-4" data-toggle="tooltip" data-placement="bottom" title="Rails" src="/images/rails1.png">
+                    <img class="col-2 my-4" data-toggle="tooltip" data-placement="bottom" title="Bootstrap" src="/images/bootstrap.png">
+                    <img class="col-2 my-4" data-toggle="tooltip" data-placement="bottom" title="jQuery" src="/images/jquery.png">
+                </div>
             </div>
-        </div>
-    </section>
-    <section id="other">
-        <div class="align-top text-center mx-lg-5 py-5">
-            <h2 class="text-light">Other</h2>
-            <div class="d-lg-inline-block d-md-inline-block d-none">
-                <img class="col-2 my-4" data-toggle="tooltip" data-placement="bottom" title="Github" src="/images/github.png">
-                <img class="col-2 my-4" data-toggle="tooltip" data-placement="bottom" title="Amazon Web Services" src="/images/aws.png">
-                <img class="col-2 my-4" data-toggle="tooltip" data-placement="bottom" title="NPM" src="/images/npm.png">
-                <img class="col-2 my-4" data-toggle="tooltip" data-placement="bottom" title="AJAX" src="/images/ajax.png">
-                <img class="col-2 my-4" data-toggle="tooltip" data-placement="bottom" title="PIP" src="/images/pip.png">
+        </section>
+        <section id="db">
+            <div class="align-top text-center mx-lg-5 py-5">
+                <h2 class="text-light">Databases</h2>
+                <div class="d-lg-inline-block d-md-inline-block d-none">
+                    <img class="col-2 my-4" data-toggle="tooltip" data-placement="bottom" title="MongoDB" src="/images/mongodb1.png">
+                    <img class="col-2 my-4" data-toggle="tooltip" data-placement="bottom" title="MySQL" src="/images/mysql.png">
+                    <img class="col-2 my-4" data-toggle="tooltip" data-placement="bottom" title="SQLite" src="/images/sqlite.png">
+                    <img class="col-2 my-4" data-toggle="tooltip" data-placement="bottom" title="PostgreSQL" src="/images/postgresql.png">
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+        <section id="other">
+            <div class="align-top text-center mx-lg-5 py-5">
+                <h2 class="text-light">Other</h2>
+                <div class="d-lg-inline-block d-md-inline-block d-none">
+                    <img class="col-2 my-4" data-toggle="tooltip" data-placement="bottom" title="Github" src="/images/github.png">
+                    <img class="col-2 my-4" data-toggle="tooltip" data-placement="bottom" title="Amazon Web Services" src="/images/aws.png">
+                    <img class="col-2 my-4" data-toggle="tooltip" data-placement="bottom" title="NPM" src="/images/npm.png">
+                    <img class="col-2 my-4" data-toggle="tooltip" data-placement="bottom" title="AJAX" src="/images/ajax.png">
+                    <img class="col-2 my-4" data-toggle="tooltip" data-placement="bottom" title="PIP" src="/images/pip.png">
+                </div>
+            </div>
+        </section>
+    </div>
 </div>
